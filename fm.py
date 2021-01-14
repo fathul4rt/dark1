@@ -16,7 +16,7 @@ try:
 	import requests
 except ImportError:
 	os.system("pip2 install requests")
-	os.system("python2 vip.py")
+	os.system("python2 fm.py")
 from requests.exceptions import ConnectionError
 from mechanize import Browser 
 
@@ -484,7 +484,7 @@ def pilih_indo():
 	print '\033[1;97m[\033[1;93m!\033[1;97m] \033[1;97mCP file tersimpan : out/ind1.txt'
 	print "\033[1;92m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"
 	raw_input("\033[1;93m[\033[1;97m Kembali \033[1;93m]")
-	os.system("python2 vip.py")
+	os.system("python2 fm.py")
 	
 ########## CRACK BANGLADESH #######
 def bangla():
@@ -718,7 +718,7 @@ def pilih_bangla():
 	print '\033[1;97m[\033[1;94m!\033[1;97m] \033[1;97mCP file tersimpan : out/pakisbang.txt'
 	print "\033[1;92m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"
 	raw_input("\033[1;93m[\033[1;97m Kembali \033[1;93m]")
-	os.system("python2 vip.py")
+	os.system("python2 fm.py")
 	
 ##########CRACK SANDI#######
 def sandi():
@@ -994,7 +994,7 @@ def id_teman():
 		print("\r\033[1;97m[\033[1;95m+\033[1;97m] \033[1;97mFile tersimpan : \033[1;97mout/"+done)
 		print "\033[1;92m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"
 		raw_input("\033[1;93m[ \033[1;97mKembali \033[1;93m]")
-		os.system("python2 vip.py")
+		os.system("python2 fm.py")
 	except IOError:
 		print"\033[1;91m[!] Gagal membuat file"
 		raw_input("\n\033[1;93m[ \033[1;97mKembali \033[1;93m]")
@@ -1010,7 +1010,7 @@ def id_teman():
 	except OSError:
 		print('\033[1;97m[\033[1;95m!\033[1;97m]\033[1;97m File anda tidak tersimpan !')
 		raw_input("\n\033[1;93m[ \033[1;97mKembali \033[1;93m]")
-		os.system("python2 vip.py")
+		os.system("python2 fm.py")
 	except requests.exceptions.ConnectionError:
 		print"\033[1;97m[×] Tidak ada koneksi !"
 		keluar()
@@ -1314,7 +1314,7 @@ def yahoofromfriends():
 	print"\033[1;97m[\033[1;92m!\033[1;97m] File tersimpan : out/mailteman.txt"
 	save.close()
 	raw_input("\n\033[1;93m[ \033[1;97mKembali \033[1;93m]")
-	os.system("python2 vip.py")
+	os.system("python2 fm.py")
 		
 #######SAYA########
 def saya():
